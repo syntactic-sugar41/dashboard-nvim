@@ -45,7 +45,7 @@ let g:dashboard_custom_section = {
         \'description': [' '.'SDK                                           '.'Software development kit'],
         \'command':function('dashboard#handler#sdk')},
     \ 'casual'          :{
-        \'description': [' '.'CASUAL                                     '.'Casual games infrastructure'],
+        \'description': ['  '.'CASUAL                                     '.'Casual games infrastructure'],
         \'command':function('dashboard#handler#casual')},
     \ }
 
