@@ -17,6 +17,33 @@ function! dashboard#handler#find_file() abort
   call dashboard#{g:dashboard_executive}#find_file()
 endfunction
 
+function! dashboard#handler#auto() abort
+  call dashboard#{g:dashboard_executive}#auto()
+endfunction
+
+function! dashboard#handler#data() abort
+  call dashboard#{g:dashboard_executive}#data()
+endfunction
+
+
+function! dashboard#handler#sdk() abort
+  call dashboard#{g:dashboard_executive}#sdk()
+endfunction
+
+function! dashboard#handler#casual() abort
+  call dashboard#{g:dashboard_executive}#casual()
+endfunction
+
+
+function! dashboard#handler#tech() abort
+  call dashboard#{g:dashboard_executive}#tech()
+endfunction
+
+
+
+
+
+
 function! dashboard#handler#find_history() abort
   call dashboard#{g:dashboard_executive}#find_history()
 endfunction

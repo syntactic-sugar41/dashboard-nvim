@@ -31,6 +31,27 @@ if exists('g:dashboard_custom_shortcut_icon')
   call extend(s:dashboard_shortcut_icon, g:dashboard_custom_shortcut_icon,'force')
 endif
 
+let g:dashboard_custom_section = {
+    \ 'auto'            :{
+        \'description': [' '.'AUTOMATON                            '.'Internal process automation tools'],
+        \'command':function('dashboard#handler#auto')},
+    \ 'data'            :{
+        \'description': [' '.'DATA                                     '.'Data management and analytics'],
+        \'command':function('dashboard#handler#data')},
+    \ 'tech'            :{
+        \'description': [' '.'TECH                                      '.'Backend services and tooling'],
+        \'command':function('dashboard#handler#tech')},
+    \ 'sdk'             :{
+        \'description': [' '.'SDK                                           '.'Software development kit'],
+        \'command':function('dashboard#handler#sdk')},
+    \ 'casual'          :{
+        \'description': [' '.'CASUAL                                     '.'Casual games infrastructure'],
+        \'command':function('dashboard#handler#casual')},
+    \ }
+
+
+
+
 if exists('g:dashboard_custom_section')
   call extend(s:Section, g:dashboard_custom_section)
 else

@@ -22,3 +22,33 @@ function! dashboard#telescope#book_marks() abort
   Telescope marks
 endfunction
 
+function! dashboard#telescope#auto() abort
+  Telescope auto 
+endfunction
+
+function! dashboard#telescope#data() abort
+  Telescope data
+endfunction
+
+function! dashboard#telescope#casual() abort
+  Telescope casual
+endfunction
+
+function! dashboard#telescope#sdk() abort
+  Telescope sdk 
+endfunction
+
+function! dashboard#telescope#tech() abort
+  Telescope tech
+endfunction
+
+
+
+
+
+
+
+
+
+
+
